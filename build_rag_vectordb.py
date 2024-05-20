@@ -9,7 +9,7 @@ from build_embedder import *
 from build_vectordb import *
 
 
-# In[ ]:
+# In[2]:
 
 
 # 1. Load a list of documents
@@ -28,4 +28,16 @@ embedder = create_embedder()
 
 # for persistant chromadb & OCI vectordb
 create_vectordb(VECTOR_STORE, document_splits, embedder)
+
+
+# In[3]:
+
+
+release_log_file()
+
+
+# In[ ]:
+
+
+
 
