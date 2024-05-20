@@ -4,4 +4,5 @@ vectorstore
 __pycache__/
 
 # ignore env files
+.env
 custom_rag_langchain_workspace.code-workspace
